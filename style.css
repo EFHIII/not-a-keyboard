@@ -1,0 +1,44 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  background-color:#151515;
+  color:#eee;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+input, button{
+  font-size: 120%;
+  margin:0.2em;
+}
+
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 500px;
+  max-width: 80%;
+  text-align: center;
+  padding:1em;
+}
+
+.btn {
+  border: none;
+  /* Remove borders */
+  color: white;
+  /* Add a text color */
+  /*padding: 14px 28px; /* Add some padding */
+  padding: 4px;
+  cursor: pointer;
+  /* Add a pointer cursor on mouse-over */
+}
+
+.btn {
+  background-color: #444;
+}
+
+.btn:hover {
+  background: #222;
+}
